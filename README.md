@@ -64,19 +64,4 @@ text
 ## Notes
 - Use read-only DB credentials; consider LIMIT and statement timeouts by default.
 - Do not hardcode secrets; use environment variables or Streamlit’s password field.
-
-
-
-
-
-
-
-### ✅ Explanation (non-technical):
-
-1. **🙋 You** ask a question in plain English.  
-2. **💻 Streamlit App** sends it to the AI model.  
-3. **🤖 AI Model** converts the question into a database query (SQL).  
-4. **🛡 Safety Check** makes sure the query is safe (only `SELECT`).  
-5. If safe → runs on **🐘 Database**, and result comes back.  
-6. **📊 Answer** is shown clearly in the app.  
-7. If unsafe → query is **⚠️ blocked** to protect data.  
+ 
