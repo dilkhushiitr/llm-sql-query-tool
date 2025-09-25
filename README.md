@@ -61,6 +61,10 @@ df = pd.read_sql(sql, con=engine)
 
 text
 
+<img width="1125" height="859" alt="Screenshot 2025-09-25 at 11 51 43 AM" src="https://github.com/user-attachments/assets/1bedf7e5-808a-4589-932f-b0b54e12af9b" />
+
+
+
 ## Notes
 - Use read-only DB credentials; consider LIMIT and statement timeouts by default.
 - Do not hardcode secrets; use environment variables or Streamlit’s password field.
